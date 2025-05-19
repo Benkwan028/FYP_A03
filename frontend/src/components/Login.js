@@ -46,7 +46,9 @@ const Login = () => {
             required
           />
         </div>
-        <button type="submit" className="btn btn-primary btn-block">Login</button>
+        <button type="submit" className="btn btn-primary btn-block">
+          Login
+        </button>
       </form>
       {message && <p className="text-center mt-3">{message}</p>}
     </div>
