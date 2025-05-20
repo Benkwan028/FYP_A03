@@ -1,0 +1,19 @@
+/* Hero.css */
+.hero {
+  background-color: #f8f9fa;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+}
+
+.hero p {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+.hero .btn {
+  margin-top: 20px;
+}

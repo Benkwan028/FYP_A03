@@ -1,0 +1,9 @@
+/* FeaturedProducts.css */
+.featured-products {
+  text-align: center;
+  padding: 20px;
+}
+
+.featured-products .card {
+  margin: 15px;
+}

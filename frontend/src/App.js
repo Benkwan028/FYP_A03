@@ -1,24 +1,17 @@
-import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Home from "./components/Home";
-import Register from "./components/Register";
-import Products from "./components/Products";
-import Search from "./components/Search";
+import React from 'react';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import FeaturedProducts from './components/FeaturedProducts';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <BrowserRouter>
+    <div>
       <Navbar />
-      <div className="container mt-4">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/register" element={<Register />} />
-          <Route path="/products" element={<Products />} />
-          <Route path="/search" element={<Search />} />
-        </Routes>
-      </div>
-    </BrowserRouter>
+      <Hero />
+      <FeaturedProducts />
+      <Footer />
+    </div>
   );
 }
 
